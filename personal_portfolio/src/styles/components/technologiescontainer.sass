@@ -1,0 +1,81 @@
+@use '../variables'
+@use '../mixins'
+
+.technologies-container
+    margin-bottom: 1rem
+
+    .technologies-grid
+        display: flex
+        flex-wrap: wrap
+        gap: 1.5rem
+    
+        .technology-card
+            @include mixins.center
+            gap: 1rem
+            padding: 1rem
+            border: 1px solid #333
+            width: 30%
+            border-radius: variables.$card-border-radius
+
+            h3
+                color: variables.$text-color
+                margin-bottom: 1rem
+
+            svg
+                font-size: 4rem
+        
+        #html, #laravel
+            svg
+                color: #e44d26
+        
+        #css, #python, #jquery
+            svg
+                color: #1572b6
+        
+        #bootstrap
+            svg
+                color: purple
+
+        #sass
+            svg
+                color: #bc2a8d
+
+        #js
+            svg
+                color: #f0db4f
+
+        #node
+            svg
+                color: #83cd29
+
+        #php
+            svg
+                color: #1573b67a
+        
+        #java
+            svg
+                color: rgba(250, 82, 82, 1)
+
+        #mysql, #postgresql
+            svg
+                color: #00618a
+
+        #react
+            svg
+                color: #61dafb
+        
+        #firebase
+            svg
+                color: #ffca28
+        
+        #mongodb
+            svg
+                color: #4db33d
+
+        #ionic
+            svg
+                color: blue
+
+        #git
+            svg
+                color: red

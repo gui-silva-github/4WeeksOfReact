@@ -1,0 +1,58 @@
+@use '../variables'
+@use '../mixins'
+
+#sidebar
+    background-color: variables.$bg-color
+    flex: 1 1 0
+    border-radius: variables.$container-border-radius
+    display: flex
+    align-items: center
+    flex-direction: column
+    text-align: center
+    position: relative
+    padding: 3rem 0
+
+    img
+        max-width: 70%
+        height: 320px
+        border-radius: variables.$container-border-radius
+        position: absolute
+        top: -4rem
+
+    .title
+        color: variables.$text-color-secondary
+        background-color: variables.$bg-color-secondary
+        border-radius: variables.$card-border-radius
+        margin-top: 14rem
+        padding: .8rem 1.2rem
+
+    .btn
+        @include mixins.btn
+    
+    .space
+        margin-top: 1.5rem
+
+    .technologies-container
+        margin-left: 1.1rem
+
+    h2
+        margin-top: 2.5rem
+        color: variables.$text-color-secondary
+    
+    svg
+        color: variables.$text-color-secondary
+    
+    .technology-card
+        width: 44.7%
+
+    .technology-card:hover
+        background: variables.$gradient
+        > svg
+            color: variables.$text-color
+
+    .idioma
+        margin-top: 0.6rem
+
+    .ln 
+        margin-top: 90rem
+        height: 120px
