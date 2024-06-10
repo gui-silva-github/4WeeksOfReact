@@ -12,3 +12,7 @@ Welcome to the Global Movie Search project! This application is built using Reac
 
 Welcome to the Personal Portfolio project! This repository provides a beautifully styled and highly customizable portfolio template that allows users to create their own personal portfolio website. 
 With easy-to-modify SVGs and images, you can make this portfolio truly yours with minimal effort.
+
+## Week 3: Quiz Game
+
+Welcome to the Quiz Game project! This interactive quiz application allows users to test their knowledge across various topics like programming languages. The game enhances user engagement by providing hints and the ability to eliminate incorrect options, making the quiz more dynamic and user-friendly.
