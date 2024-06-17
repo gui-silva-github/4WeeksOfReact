@@ -16,3 +16,7 @@ With easy-to-modify SVGs and images, you can make this portfolio truly yours wit
 ## Week 3: Quiz Game
 
 Welcome to the Quiz Game project! This interactive quiz application allows users to test their knowledge across various topics like programming languages. The game enhances user engagement by providing hints and the ability to eliminate incorrect options, making the quiz more dynamic and user-friendly.
+
+## Week 4: Find Github
+
+Welcome to the Find Github project! This is a web application that allows users to easily find the GitHub profiles of other developers by their usernames. This tool simplifies the process of searching for GitHub profiles, making it quick and convenient to connect with other developers and explore their repositories.
